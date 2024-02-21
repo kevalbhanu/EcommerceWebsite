@@ -10,7 +10,17 @@ body {
 
 /* Login Page Styles */
 
-.login-container,
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/images/loginBackground.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
 .product-section {
     display: flex;
     justify-content: center;
@@ -26,6 +36,8 @@ body {
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     animation: fadeIn 0.5s ease-in-out;
+    background: linear-gradient(to right,skyblue,lightgreen);
+    background-attachment: fixed;
 }
 
 .product {
@@ -243,6 +255,32 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+img{
+    width: 90%;
+    height: 80%;
+    margin: 10px;
+    padding:20px;
+}
+
+.product-name{
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 40px;
+    margin: 10px;
+}
+
+.product-price{
+    font-size: 18px;
+    font-weight: bold;
+    align-content: center;
+    padding-left: 40px;
+    margin: 10px;
+    
+}
+
+
 
 /* Additional Suggestions */
 /* Add hover effects, interactive elements, and subtle background patterns or textures */
